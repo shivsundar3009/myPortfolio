@@ -1,4 +1,5 @@
 import React from 'react'
+import resume from '../assets/shivsundar_resume.pdf'
 
 function Home() {
   return (
@@ -11,7 +12,8 @@ function Home() {
      A Frontend focused Web Developer building the Frontend of Websites and <br />Web Applications that leads to the success of the overall product   
      </p>
 
-     <button className='mt-11 bg-blue-500 p-2 rounded-xl text-white border-4 hover:border-[#3b82f6] hover:text-[#3b82f6] hover:bg-white'>RESUME</button>
+     <button className='mt-11 bg-blue-500 p-2 rounded-xl text-white border-4 hover:border-[#3b82f6] hover:text-[#3b82f6] hover:bg-white'>
+        <a href="" download={resume}>RESUME</a></button>
 
 
 
